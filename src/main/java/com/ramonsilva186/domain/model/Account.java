@@ -12,9 +12,9 @@ public class Account {
     @Column(name = "account_number")
     private String number;
     private String agency;
-    @Column(precision = 2, scale = 10)
+    @Column(precision = 13, scale = 2)
     private BigDecimal balance;
-    @Column(name = "additional_limit",precision = 2, scale = 10)
+    @Column(name = "additional_limit",precision = 13, scale = 2)
     private BigDecimal limit;
 
 
